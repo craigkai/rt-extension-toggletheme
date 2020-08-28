@@ -11,7 +11,7 @@ if ( RT->Config->Get('DevelMode') ) {
 }
 elsif ( $style eq 'elevator-light' ) {
     my $key = RT::Interface::Web::SquishedCSS( 'elevator-dark' )->Key;
-    push @{$CSSFiles}, "/NoAuth/css/$style/squished-$key.css";
+    push @{$CSSFiles}, "/NoAuth/css/elevator-dark/squished-$key.css";
 }
 </%init>
 
