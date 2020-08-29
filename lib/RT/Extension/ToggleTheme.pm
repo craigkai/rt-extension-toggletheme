@@ -31,11 +31,15 @@ Works with RT 5
 
 May need root permissions
 
-=item Edit your F</opt/rt4/etc/RT_SiteConfig.pm>
+=item Edit your F</opt/rt5/etc/RT_SiteConfig.pm>
 
 Add this line:
 
     Plugin('RT::Extension::ToggleTheme');
+
+=item Apply patch to RT5
+
+    patch -d /opt/r5 -p1 < patches/header-callback.patch
 
 =item Clear your mason cache
 
