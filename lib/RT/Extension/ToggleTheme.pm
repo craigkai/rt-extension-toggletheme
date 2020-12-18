@@ -5,7 +5,7 @@ package RT::Extension::ToggleTheme;
 RT->AddJavaScript('themes.js');
 RT->AddJavaScript('fontawesome-icons.js');
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 NAME
 
@@ -13,7 +13,8 @@ RT-Extension-ToggleTheme - Toggle elevator light and dark theme.
 
 =head1 DESCRIPTION
 
-To save your eyes in the dark.
+To save your eyes in the dark. The theme toggle button only displays for
+users who have the ModifySelf right.
 
 =head1 RT VERSION
 

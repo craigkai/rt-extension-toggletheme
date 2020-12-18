@@ -4,7 +4,8 @@
 
 #### DESCRIPTION
 
-    To save your eyes in the dark.
+    To save your eyes in the dark. The theme toggle button only displays for
+users who have the ModifySelf right.
 
 ![Demo](./static/images/demo.gif)
 

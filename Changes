@@ -1,4 +1,8 @@
 Revision history for RT-Extension-ToggleTheme
 
+0.02 12-18-2020
+ - Add support for theme toggle in selfservice interface
+ - Add a rights check for ModifySelf before displaying toggle
+
 0.01 08-28-2020
  - Initial version
