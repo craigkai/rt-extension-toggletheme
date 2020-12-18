@@ -38,10 +38,6 @@ Add this line:
 
     Plugin('RT::Extension::ToggleTheme');
 
-=item Apply patch to RT5
-
-    patch -d /opt/r5 -p1 < patches/header-callback.patch
-
 =item Clear your mason cache
 
     rm -rf /opt/rt5/var/mason_data/obj

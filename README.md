@@ -21,15 +21,11 @@ users who have the ModifySelf right.
 
 ##### May need root permissions
 
-##### Edit your /opt/rt4/etc/RT_SiteConfig.pm
+##### Edit your /opt/rt5/etc/RT_SiteConfig.pm
 
 ##### Add this line:
 
     Plugin('RT::Extension::ToggleTheme');
-
-##### Apply patch to RT5
-
-    patch -d /opt/r5 -p1 < patches/header-callback.patch
 
 ##### Clear your mason cache
 
