@@ -1,5 +1,8 @@
 Revision history for RT-Extension-ToggleTheme
 
+0.03 12-18-2020
+ - Bump version for cpan
+
 0.02 12-18-2020
  - Add support for theme toggle in selfservice interface
  - Add a rights check for ModifySelf before displaying toggle
