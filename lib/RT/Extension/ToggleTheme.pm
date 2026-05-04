@@ -4,7 +4,7 @@ package RT::Extension::ToggleTheme;
 
 RT->AddJavaScript('themes.js');
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 =head1 NAME
 
