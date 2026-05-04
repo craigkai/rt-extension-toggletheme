@@ -1,6 +1,6 @@
 #### NAME
 
-    RT-Extension-ToggleTheme - Toggle elevator light and dark theme.
+    RT-Extension-ToggleTheme - Toggle light and dark theme.
 
 #### DESCRIPTION
 
@@ -10,7 +10,7 @@
 
 #### RT VERSION
 
-    Works with RT 5
+    Works with RT 6
 
 #### INSTALLATION
 
@@ -20,7 +20,7 @@
 
 ##### May need root permissions
 
-##### Edit your /opt/rt5/etc/RT_SiteConfig.pm
+##### Edit your /opt/rt6/etc/RT_SiteConfig.pm
 
 ##### Add this line:
 
@@ -28,7 +28,7 @@
 
 ##### Clear your mason cache
 
-    rm -rf /opt/rt5/var/mason_data/obj
+    rm -rf /opt/rt6/var/mason_data/obj
 
 ##### Restart your webserver
 
