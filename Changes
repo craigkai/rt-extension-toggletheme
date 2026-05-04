@@ -1,5 +1,8 @@
 Revision history for RT-Extension-ToggleTheme
 
+1.02 2026-05-04
+ -  Version bump for pause
+
 1.01 2026-05-04
  - Add menu-item class to toggle button to fix keyboard-shortcuts.js error
 
