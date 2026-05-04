@@ -3,9 +3,8 @@ use warnings;
 package RT::Extension::ToggleTheme;
 
 RT->AddJavaScript('themes.js');
-RT->AddJavaScript('fontawesome-icons.js');
 
-our $VERSION = '0.04';
+our $VERSION = '1.00';
 
 =head1 NAME
 
@@ -18,7 +17,7 @@ users who have the ModifySelf right.
 
 =head1 RT VERSION
 
-Works with RT 5
+Works with RT 6
 
 =head1 INSTALLATION
 
@@ -32,7 +31,7 @@ Works with RT 5
 
 May need root permissions
 
-=item Edit your F</opt/rt5/etc/RT_SiteConfig.pm>
+=item Edit your F</opt/rt6/etc/RT_SiteConfig.pm>
 
 Add this line:
 
@@ -40,7 +39,7 @@ Add this line:
 
 =item Clear your mason cache
 
-    rm -rf /opt/rt5/var/mason_data/obj
+    rm -rf /opt/rt6/var/mason_data/obj
 
 =item Restart your webserver
 
