@@ -1,9 +1,6 @@
 <%init>
 return unless $session{'CurrentUser'}->HasRight( Object => $RT::System, Right => 'ModifySelf' );
 
-my $style = RT->Config->Get('WebDefaultStylesheet', $session{CurrentUser});
-return unless $style =~ /^elevator/;
-
 my $icon = GetSVGImage( Name => 'circle-half', Title => loc('Toggle theme') );
 
 Menu->child(
