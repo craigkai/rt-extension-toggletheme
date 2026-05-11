@@ -4,16 +4,18 @@ package RT::Extension::ToggleTheme;
 
 RT->AddJavaScript('themes.js');
 
-our $VERSION = '1.02';
+our $VERSION = '1.03';
 
 =head1 NAME
 
-RT-Extension-ToggleTheme - Toggle elevator light and dark theme.
+RT-Extension-ToggleTheme - Toggle light and dark theme.
 
 =head1 DESCRIPTION
 
-To save your eyes in the dark. The theme toggle button only displays for
-users who have the ModifySelf right.
+Adds a light/dark mode toggle button to the RT 6 navigation bar. Works with
+any Bootstrap 5 theme. The toggle button displays for users who have the
+ModifySelf right and appears in both the privileged and self-service
+interfaces.
 
 =head1 RT VERSION
 

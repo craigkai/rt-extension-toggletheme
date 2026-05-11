@@ -1,9 +1,11 @@
 NAME
-    RT-Extension-ToggleTheme - Toggle elevator light and dark theme.
+    RT-Extension-ToggleTheme - Toggle light and dark theme.
 
 DESCRIPTION
-    To save your eyes in the dark. The theme toggle button only displays for
-    users who have the ModifySelf right.
+    Adds a light/dark mode toggle button to the RT 6 navigation bar. Works
+    with any Bootstrap 5 theme. The toggle button displays for users who
+    have the ModifySelf right and appears in both the privileged and
+    self-service interfaces.
 
 RT VERSION
     Works with RT 6

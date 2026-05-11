@@ -1,5 +1,9 @@
 Revision history for RT-Extension-ToggleTheme
 
+1.03 2026-05-11
+ - Remove Elevator-only stylesheet restriction; toggle now works with any Bootstrap 5 theme
+ - Show toggle button in self-service portal as well as privileged interface
+
 1.02 2026-05-04
  -  Version bump for pause
 
